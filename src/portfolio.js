@@ -12,7 +12,7 @@ const greeting = {
   username: "Benny Khoker",
   title: "Hi there, I'm Benny Khoker",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer with experience building Web and Mobile applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
+    "Coming from the world of construction, from building homes and public schools to building tech stacks. I have been able to apply my attention to detail and an analytical lens to my tech stacks in order to facilitate a better user experience. I'm a passionate Full Stack Software Developer with experience building Web and Mobile applications with JavaScript / Reactjs / Nodejs and some other libraries and frameworks Check out some of my projects below"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1lfWMtv22tT0ixK_m8zYzcHgnS87d_FIN/view?usp=sharing",
@@ -36,15 +36,16 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "Who is Benny?",
-  subTitle: "A FULL STACK DEVELOPER WHO WANTS TO LEARN AND EXPLORE EVERY TECH STACK IN THE WORLD",
+  subTitle:
+    "A FULL STACK DEVELOPER WHO WANTS EXPLORE EVERY TECH STACK TO REACH OPTIMAL EFFICIENCY WHILE CONSTANLY TRYING AND LEARNING NEW THINGS",
   skills: [
     emoji(
-      "⚡ Develop interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop interactive Front end / User Interfaces for your applications"
     ),
     emoji("⚡ Progressive Web Applications "),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS "
-    )
+    emoji("⚡ Beautifully designed code for easy understanding and effectiveness"),
+    emoji("⚡ Integration of third party services such as Firebase/ AWS "),
+    emoji("⚡ Testing for optimization")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -103,10 +104,13 @@ const educationInfo = {
       logo: require("./assets/images/Fullstack.png"),
       subHeader: "17-Week Full Stack JavaScript Web Development Immersive",
       duration: " Graduated April 2021",
-      desc: " completed 550+ hours of full-stack web development coursework",
+      desc:
+        "Fullstack Academy is a top-ranked immersive school for tech training",
       descBullets: [
-        "",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "completed 550+ hours of full-stack web development coursework",
+        "Developed fullstack applications",
+        "Managed Projects with teams of four to gain working team experiance",
+        "Explored tecnologies in gaming, machine learning, data analytics, and many more"
       ]
     },
     {
@@ -115,8 +119,11 @@ const educationInfo = {
       subHeader: "Bachelor of Science in Economics",
       duration: "Graduated December 2017",
       desc:
-        "Took courses about Software Engineering, Statistics, Math, Micro and Macro Economics, Data Analytics,   ...",
-      descBullets: ["Lorem"]
+        "University at Albany—SUNY is a public institution that was founded in 1844",
+      descBullets: [
+        "Took courses about software engineering, statistics, math, micro and macro economics, data analytics, computer science and many more...",
+        "Studied Economics to gain an analytical and data driven lens to identify trends and explore otimization and efficency",
+      ]
     }
   ]
 };
@@ -156,7 +163,6 @@ const workExperiences = {
         "Managed public project build-outs during a two year period with project values ranging from $15k to $790k.",
       descBullets: [
         "Participated in proposals, estimating, scheduling, resource allocation, and document management to ensure specification based execution of public projects on schedule.",
-
         "Maintained relationships and information distribution with clients, subcontractors, and suppliers."
       ]
     },
@@ -165,9 +171,12 @@ const workExperiences = {
       company: "E.B.S Construction,",
       companylogo: require("./assets/images/EBS.jpg"),
       date: "June 2013 – January 2018",
-      desc:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
+      desc: "Lead Project Coordinator",
+      descBullets: [
+        "Managed teams onsite and facilitated communications between project teams and outside clients.",
+        "Developed and maintained accurate and complete files for private sites and projects."
+      ]
+    }
     // {
     //   role: "",
     //   company: "Airbnb",
