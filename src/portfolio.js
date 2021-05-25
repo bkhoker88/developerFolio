@@ -43,7 +43,9 @@ const skillsSection = {
       "⚡ Develop interactive Front end / User Interfaces for your applications"
     ),
     emoji("⚡ Progressive Web Applications "),
-    emoji("⚡ Beautifully designed code for easy understanding and effectiveness"),
+    emoji(
+      "⚡ Beautifully designed code for easy understanding and effectiveness"
+    ),
     emoji("⚡ Integration of third party services such as Firebase/ AWS "),
     emoji("⚡ Testing for optimization")
   ],
@@ -89,7 +91,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
-    }
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -238,6 +240,22 @@ const bigProjects = {
         {
           name: "Github",
           url: "https://github.com/Cloud-s-Canaries/GraceShopper"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/REST.png"),
+      projectName: "RESTful web platfrom",
+      projectDesc:
+        "Used Express to handle HTTP requests and Sequelize to interface with database, used React, Redux and React-Redux on the front-end, managed connected components through the Redux store, Used Thunks to encapsulate side-effect (such as AJAX requests)",
+      footerLink: [
+        {
+          name: "View Video",
+          url: "https://youtu.be/5uaeivjGLfg"
+        },
+        {
+          name: "Github",
+          url: " https://github.com/bkhoker88/2101-FSA-RM-WEB-FT-JPFP"
         }
       ]
     }
