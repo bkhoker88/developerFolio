@@ -258,6 +258,18 @@ const bigProjects = {
           url: " https://github.com/bkhoker88/2101-FSA-RM-WEB-FT-JPFP"
         }
       ]
+    },
+    {
+      image: require("./assets/images/TPT.png"),
+      projectName: "The People's Theraphy Website",
+      projectDesc:
+        "freelance project, Created a website using react, webpack and babel hosted through firebase for client(Under Construction!!!!)",
+      footerLink: [
+        {
+          name: "View Website",
+          url: "https://peoples-therapy.web.app/"
+        }
+      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -308,7 +320,6 @@ const achievementSection = {
         }
       ]
     },
-
     {
       title: "PWA Web App Developer",
       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
